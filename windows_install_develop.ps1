@@ -10,3 +10,6 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 # STEP 4: To set the WSL default version to 2.
 # Any distribution installed after this, would run on WSL 2
 wsl --set-default-version 2
+
+wsl --install -d Ubuntu-22.04
+
