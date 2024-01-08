@@ -1,4 +1,4 @@
-#wsl --set-default-version 2
+
 # STEP 1: Enable Virtual Machine Platform feature
 dism.exe /online /enable-feature /featurename:VirtualMachinePlatform /all /norestart
 
