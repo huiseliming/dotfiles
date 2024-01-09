@@ -17,9 +17,10 @@ wsl --set-default-version 2
 # wsl --list --online
 wsl --install -d Ubuntu-22.04
 
-# set static WSL address
+# netsh interface portproxy
 netsh interface ip add address "vEthernet (WSL)" 172.16.160.1 255.255.255.0
 netsh interface portproxy add v4tov4 listenport=1111 listenaddress=0.0.0.0 connectport=1111 connectaddress=172.16.160.11
+netsh interface portproxy show v4tov4
 
 # exec on Ubuntu-22.04
 #sudo ip addr add 172.16.160.11/24 broadcast 172.16.160.255 dev eth0 label eth0:1;
