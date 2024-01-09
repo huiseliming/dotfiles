@@ -33,14 +33,14 @@ dism.exe /online /enable-feature /featurename:Microsoft-Windows-Subsystem-Linux 
 ::Enable Microsoft-Hyper-V feature
 ::dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V /all /norestart
 
-::Restart Win 10 Machine
+rem Restart Windows Machine
 
 ::To set the WSL default version to 2.
-::wsl --set-default-version 2
+rem wsl --set-default-version 2
 
 ::Installed linux distribution
-::wsl --list --online
-::wsl --install -d Ubuntu-22.04
+rem wsl --list --online
+rem wsl --install -d Ubuntu-22.04
 
 ::netsh interface portproxy
 ::netsh interface ip add address "vEthernet (WSL)" 172.172.172.1 255.255.255.0
