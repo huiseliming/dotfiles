@@ -23,5 +23,5 @@ netsh interface portproxy add v4tov4 listenport=1111 listenaddress=0.0.0.0 conne
 netsh interface portproxy show v4tov4
 
 # exec on Ubuntu-22.04
-#sudo ip addr add 172.16.160.11/24 broadcast 172.16.160.255 dev eth0 label eth0:1;
+#sudo ip addr add 172.172.172.172/24 broadcast 172.172.172.255 dev eth0 label eth0:1;
 
