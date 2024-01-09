@@ -14,5 +14,6 @@ dism.exe /online /enable-feature /featurename:Microsoft-Hyper-V /all /norestart
 wsl --set-default-version 2
 
 # Installed linux distribution
+# wsl --list --online
 wsl --install -d Ubuntu-22.04
 
