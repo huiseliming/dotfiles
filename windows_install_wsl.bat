@@ -48,5 +48,5 @@ rem wsl --install -d Ubuntu-22.04
 ::netsh interface portproxy show v4tov4
 
 ::exec on Ubuntu-22.04
-::sudo ip addr add 172.172.172.172/24 broadcast 172.172.172.255 dev eth0 label eth0:1;
+::sudo ip addr add 172.172.172.172/24 broadcast 172.172.172.255 dev eth0 label eth0:1
 
