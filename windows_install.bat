@@ -6,3 +6,5 @@ git config --global user.name "huiseliming"
 choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System'
 :: 改回win10的右键菜单
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
+:: BIOS时间为UTC
+Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
