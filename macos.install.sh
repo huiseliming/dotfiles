@@ -2,6 +2,8 @@
 
 brew install --cask google-chrome
 brew install --cask visual-studio-code
+brew install autoconf autoconf-archive
+brew install automake
 
 cd ~
 git clone https://github.com/microsoft/vcpkg
