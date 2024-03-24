@@ -10,5 +10,5 @@ COPY C:\ProgramData\chocolatey\bin\win_flex.exe C:\ProgramData\chocolatey\bin\fl
 
 mkdir C:\Qt\build_6.6.2
 cd C:\Qt\build_6.6.2
-C:\Qt\qt-everywhere-src-6.6.2\configure.bat -prefix C:\Qt\6.6.2\dev_msvc_x64 -webengine-proprietary-codecs -opensource
+C:\Qt\qt-everywhere-src-6.6.2\configure.bat -prefix C:\Qt\6.6.2\dev_msvc_x64 -debug-and-release -opensource -webengine-proprietary-codecs
 cmake --install .
