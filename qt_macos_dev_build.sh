@@ -1,4 +1,5 @@
-python3 -m pip install html5lib
+#python3 -m pip install html5lib
+pip3 install html5lib
 brew install cmake ninja bison flex gperf node
 
 mkdir build
