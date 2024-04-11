@@ -11,6 +11,6 @@ cd build
 #cmake --install . 不会部署debug
 ninja install 
 
-
+echo "export QT_DIR=~/Qt/6.7.0/macOS" >> ~/.zprofile
 
 
