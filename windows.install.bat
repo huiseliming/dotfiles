@@ -6,6 +6,7 @@ choco install -y cmake --installargs 'ADD_CMAKE_TO_PATH=System'
 :: 配置git
 git config --global user.email "huiseliming@qq.com"
 git config --global user.name "huiseliming"
+choco install -y winrar
 :: 安装Flow-Launcher
 :: choco install -y Flow-Launcher
 :: 改回win10的右键菜单
