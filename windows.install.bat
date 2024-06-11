@@ -7,7 +7,7 @@ choco install -y cmake --installargs 'ADD_CMAKE_TO_PATH=System'
 git config --global user.email "huiseliming@qq.com"
 git config --global user.name "huiseliming"
 :: 安装Flow-Launcher
-choco install Flow-Launcher
+:: choco install -y Flow-Launcher
 :: 改回win10的右键菜单
 reg.exe add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve
 :: BIOS时间为UTC
