@@ -1,8 +1,8 @@
 :: 安装 chocolatey
 @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
 :: 安装c/c++编译工具 配置git
-choco install git tortoisegit ninja vscode
-choco install cmake --installargs 'ADD_CMAKE_TO_PATH=System'
+choco install -y git tortoisegit ninja vscode
+choco install -y cmake --installargs 'ADD_CMAKE_TO_PATH=System'
 :: 配置git
 git config --global user.email "huiseliming@qq.com"
 git config --global user.name "huiseliming"
