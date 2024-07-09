@@ -50,3 +50,8 @@ rem wsl --install -d Ubuntu-22.04
 ::exec on Ubuntu-22.04
 ::sudo ip addr add 172.172.172.172/24 broadcast 172.172.172.255 dev eth0 label eth0:1
 
+:: upgrade the mesa drivers to the latest version for vulkan
+::sudo add-apt-repository ppa:kisak/kisak-mesa
+::sudo apt update
+::sudo apt upgrade
+
